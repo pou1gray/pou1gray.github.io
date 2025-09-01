@@ -44,7 +44,13 @@
             "code": "NIGHTSOUL",
             "coins": 3499,
             "experience": 1000
+        },
+        {
+            "code": "PELMENI",
+            "coins": 1299,
+            "experience": 399
         }
     ]
 }
+
 
