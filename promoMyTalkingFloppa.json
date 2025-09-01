@@ -39,6 +39,12 @@
             "code": "SECRET777",
             "coins": 777,
             "experience": 777
+        },
+        {
+            "code": "NIGHTSOUL",
+            "coins": 3499,
+            "experience": 1000
         }
     ]
 }
+
