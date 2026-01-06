@@ -49,8 +49,14 @@
             "code": "PELMENI",
             "coins": 1299,
             "experience": 399
+        },
+        {
+            "code": "JAVIERPROMO2026",
+            "coins": 3999,
+            "experience": 999
         }
     ]
 }
+
 
 
