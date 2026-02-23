@@ -69,9 +69,15 @@
             "code": "CULTVIBE",
             "coins": 1777,
             "experience": 499
+        },
+        {
+            "code": "MISTERFLOPPA",
+            "coins": 699,
+            "experience": 249
         }
     ]
 }
+
 
 
 
