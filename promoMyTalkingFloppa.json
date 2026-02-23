@@ -64,9 +64,15 @@
             "code": "FLOPPAGOSHA",
             "coins": 599,
             "experience": 250
+        },
+        {
+            "code": "CULTVIBE",
+            "coins": 1777,
+            "experience": 499
         }
     ]
 }
+
 
 
 
