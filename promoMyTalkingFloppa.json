@@ -74,6 +74,11 @@
             "code": "FLOPPASNAKE155",
             "coins": 499,
             "experience": 49
+        },
+        {
+            "code": "MISHAFLOPPA",
+            "coins": 349,
+            "experience": 49
         }
     ]
 }
