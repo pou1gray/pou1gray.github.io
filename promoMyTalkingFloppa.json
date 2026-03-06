@@ -74,9 +74,15 @@
             "code": "FLOPPA0403",
             "coins": 1399,
             "experience": 599
+        },
+        {
+            "code": "BUGHUNTER",
+            "coins": 999,
+            "experience": 299
         }
     ]
 }
+
 
 
 
