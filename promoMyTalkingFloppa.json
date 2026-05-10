@@ -79,18 +79,11 @@
             "code": "BUGHUNTER",
             "coins": 999,
             "experience": 299
+        },
+        {
+            "code": "100DAYS",
+            "coins": 5000,
+            "experience": 1000
         }
     ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
