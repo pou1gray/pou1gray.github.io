@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pou1gray.github.io/sitemap.xml

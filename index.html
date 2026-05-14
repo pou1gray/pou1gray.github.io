@@ -3,165 +3,301 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Vasily Abrosimov — Indie Game Developer</title>
-
-    <!-- SEO -->
-    <meta name="description"
-        content="Personal portfolio of Vasily Abrosimov, indie game developer. Creator of My Talking Floppa.">
-    <meta name="keywords" content="Vasily Abrosimov, indie game developer, Unity, mobile games, My Talking Floppa">
-    <meta name="author" content="Vasily Abrosimov">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Vasily Abrosimov">
+    <meta name="theme-color" content="#000000">
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="Vasily Abrosimov — Indie Game Developer">
-    <meta property="og:description" content="Personal site and projects of indie game developer Vasily Abrosimov.">
-    <meta property="og:image" content="Images/pfp.jpg">
+    <title>Vasily Abrosimov - Unity Developer, Indie Game Developer</title>
+    <meta name="description"
+        content="Portfolio of Vasily Abrosimov, a Unity Developer with 3+ years of experience in personal and freelance projects. Creator of My Talking Floppa.">
+    <meta name="keywords"
+        content="Vasily Abrosimov, Vasily Abrosimov Unity Developer, Unity Developer, Indie Game Developer, freelance Unity developer, My Talking Floppa, Василий Абросимов, Unity разработчик, инди разработчик игр">
+    <link rel="canonical" href="https://pou1gray.github.io/">
+
     <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pou1gray.github.io/">
+    <meta property="og:site_name" content="Vasily Abrosimov Portfolio">
+    <meta property="og:title" content="Vasily Abrosimov - Unity Developer, Indie Game Developer">
+    <meta property="og:description"
+        content="Portfolio of Vasily Abrosimov, a Unity Developer with 3+ years of experience in personal and freelance projects. Creator of My Talking Floppa.">
+    <meta property="og:image" content="https://pou1gray.github.io/Images/pfp.png">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="ru_RU">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Vasily Abrosimov - Unity Developer">
+    <meta name="twitter:description"
+        content="Unity Developer with 3+ years of experience in personal and freelance projects. Creator of My Talking Floppa.">
+    <meta name="twitter:image" content="https://pou1gray.github.io/Images/pfp.png">
+
     <meta name="takprodam-verification" content="b39da166-6e10-49cf-9fef-00f9b2974aec">
 
-    <!-- Google tag (gtag.js) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap"
+        rel="stylesheet">
+    <link rel="preload" href="Images/pfp.png" as="image">
+    <link rel="stylesheet" href="style.css">
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LXQWEV2T13"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-LXQWEV2T13');
+        gtag("js", new Date());
+        gtag("config", "G-LXQWEV2T13");
     </script>
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-
-    <style>
-        body {
-            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-            color: #ffffff;
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "Person",
+                    "@id": "https://pou1gray.github.io/#person",
+                    "name": "Vasily Abrosimov",
+                    "alternateName": "Василий Абросимов",
+                    "url": "https://pou1gray.github.io/",
+                    "image": "https://pou1gray.github.io/Images/pfp.png",
+                    "jobTitle": "Unity Developer",
+                    "knowsAbout": ["Unity", "C#", "Git", "HTML", "CSS", "JavaScript", "Game Development"],
+                    "sameAs": [
+                        "https://t.me/Poulgray",
+                        "https://www.instagram.com/pou1gray/",
+                        "https://www.youtube.com/@Poulgray",
+                        "https://github.com/pou1gray"
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https://pou1gray.github.io/#website",
+                    "url": "https://pou1gray.github.io/",
+                    "name": "Vasily Abrosimov Portfolio",
+                    "publisher": {
+                        "@id": "https://pou1gray.github.io/#person"
+                    },
+                    "inLanguage": ["en", "ru"]
+                },
+                {
+                    "@type": "SoftwareApplication",
+                    "@id": "https://pou1gray.github.io/#my-talking-floppa",
+                    "name": "My Talking Floppa",
+                    "applicationCategory": "GameApplication",
+                    "operatingSystem": "iOS, Android",
+                    "creator": {
+                        "@id": "https://pou1gray.github.io/#person"
+                    },
+                    "url": "https://pou1gray.github.io/",
+                    "sameAs": [
+                        "https://play.google.com/store/apps/details?id=com.abrosimov.mytalkingfloppa",
+                        "https://apps.apple.com/app/my-talking-floppa-virtual-pet/id6476065169"
+                    ]
+                }
+            ]
         }
-
-        .avatar {
-            width: 160px;
-            height: 160px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 4px solid #ffffff;
-        }
-
-        .card {
-            background-color: rgba(255, 255, 255, 0.08);
-            border: none;
-            backdrop-filter: blur(10px);
-        }
-
-        .project-description {
-            color: rgba(255, 255, 255, 0.9);
-            line-height: 1.7;
-            font-size: 1.05rem;
-        }
-
-        .game-icon {
-            width: 64px;
-            height: 64px;
-            border-radius: 14px;
-        }
-
-        .social a {
-            color: white;
-            font-size: 1.5rem;
-            margin-right: 15px;
-            transition: 0.3s;
-        }
-
-        .social a:hover {
-            color: #0d6efd;
-        }
-
-        .store-btn {
-            text-decoration: none;
-            color: white;
-            font-size: 1.15rem;
-            padding: 10px 18px;
-            border-radius: 10px;
-            background-color: rgba(255, 255, 255, 0.15);
-            transition: 0.3s;
-        }
-
-        .store-btn:hover {
-            background-color: rgba(255, 255, 255, 0.3);
-        }
-
-        footer {
-            opacity: 0.7;
-        }
-    </style>
+    </script>
 </head>
 
 <body>
-
-    <div class="container py-5">
-
-        <!-- HEADER -->
-        <div class="text-center mb-5">
-            <img src="Images/pfp.jpg" alt="Vasily Abrosimov avatar" class="avatar mb-3">
-            <h1 class="fw-bold">Vasily Abrosimov</h1>
-            <p class="lead">Indie Game Developer</p>
-
-            <div class="social mt-3">
-                <a href="mailto:poulgray63@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                <a href="https://t.me/Poulgray" target="_blank"><i class="bi bi-telegram"></i></a>
-                <a href="https://www.instagram.com/pou1gray/" target="_blank"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.youtube.com/@Poulgray" target="_blank"><i class="bi bi-youtube"></i></a>    
-            </div>
+    <header class="site-header">
+        <a class="logo" href="#top" aria-label="Vasily Abrosimov home">VA</a>
+        <nav class="nav" aria-label="Primary navigation">
+            <a href="#projects" data-i18n="navProjects">Projects</a>
+            <a href="#contact" data-i18n="navContact">Contact</a>
+        </nav>
+        <div class="language-switcher" aria-label="Language switcher">
+            <button class="language-button is-active" type="button" data-lang="en" aria-pressed="true">EN</button>
+            <button class="language-button" type="button" data-lang="ru" aria-pressed="false">RU</button>
         </div>
+    </header>
 
-        <!-- PROJECTS -->
-        <h2 class="mb-4 text-center">Projects</h2>
-
-        <div class="card p-4 mb-5">
-            <div class="d-flex align-items-center mb-3">
-                <!-- Game Icon -->
-                <img src="https://play-lh.googleusercontent.com/-tEVQ-RHzCI3VMVU4AVlgoaJsSkNXBUSfGSrfxEFl2TTfjY2T1SSdEXnF9OXYYpCt5E=w240-h480-rw"
-                    alt="My Talking Floppa icon" class="game-icon me-3">
-                <h3 class="mb-0 text-white">My Talking Floppa</h3>
+    <main id="top">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <h1 id="hero-title">Vasily Abrosimov</h1>
+                <p class="hero-role">Unity Developer</p>
+                <p class="hero-text" data-i18n="heroText">
+                    I build games and interactive digital products with a focus on clean implementation, performance,
+                    and a polished feel.
+                </p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#contact" data-i18n="contactButton">Contact</a>
+                    <a class="button button-secondary" href="#projects" data-i18n="projectsButton">Projects</a>
+                </div>
             </div>
+            <div class="hero-visual" aria-hidden="true">
+                <img src="Images/pfp.png" alt="" width="820" height="820">
+            </div>
+        </section>
 
-            <p class="project-description mb-4">
-                My Talking Floppa is a fun virtual pet game where you take care of a charismatic and meme-inspired cat.
-                <br>
-                Feed him, play mini-games, customize his look, and enjoy humorous interactions in a light-hearted
-                experience.
+        <section class="section" id="projects" aria-labelledby="projects-title">
+            <div class="section-heading">
+                <h2 id="projects-title" data-i18n="projectsTitle">Projects</h2>
+            </div>
+            <article class="project">
+                <div class="project-media">
+                    <img src="Images/icon_mytalkingfloppa.png"
+                        alt="My Talking Floppa app icon" width="160" height="160" loading="lazy">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">My Talking Floppa</h3>
+                    <p data-i18n-html="projectText">
+                        A mobile virtual pet game.<br>
+                        I built every part of it myself, from 3D visuals and UI to programming, release, and support.
+                    </p>
+                    <div class="project-links">
+                        <a class="button button-secondary"
+                            href="https://play.google.com/store/apps/details?id=com.abrosimov.mytalkingfloppa"
+                            target="_blank" rel="noopener noreferrer" aria-label="Google Play">
+                            <svg aria-hidden="true" viewBox="0 0 24 24">
+                                <path d="M5 3.5v17l14-8.5z"></path>
+                                <path d="m5 3.5 9.5 9"></path>
+                                <path d="M5 20.5 14.5 12"></path>
+                            </svg>
+                            Google Play
+                        </a>
+                        <a class="button button-secondary"
+                            href="https://apps.apple.com/app/my-talking-floppa-virtual-pet/id6476065169"
+                            target="_blank" rel="noopener noreferrer" aria-label="App Store">
+                            <svg aria-hidden="true" viewBox="0 0 24 24">
+                                <path
+                                    d="M16.5 13.2c0-2.5 2.1-3.7 2.2-3.8-1.2-1.7-3-1.9-3.6-1.9-1.5-.2-2.9.9-3.7.9s-2-.9-3.3-.9c-1.7 0-3.3 1-4.2 2.5-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.5 1.3-.1 1.8-.8 3.3-.8s2 .8 3.4.8c1.4 0 2.3-1.2 3.1-2.5.7-1 1-2 1.1-2.1-.1-.1-2.8-1.1-2.8-4.9z">
+                                </path>
+                                <path d="M14.1 5.8c.7-.8 1.1-1.9 1-3-.9.1-2 .6-2.6 1.4-.6.7-1.2 1.8-1 2.8 1 .1 2-.5 2.6-1.2z"></path>
+                            </svg>
+                            App Store
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="section contact" id="contact" aria-label="Contact">
+            <p class="section-label" data-i18n="contactLabel">Contact</p>
+            <p data-i18n-html="contactText">
+                Need a game, prototype, or custom digital project built quickly and to a high standard?<br>
+                I am open to freelance work and collaboration:
             </p>
-
-            <!-- Store buttons centered -->
-            <div class="d-flex justify-content-center gap-3">
-                <a class="store-btn"
-                    href="https://play.google.com/store/apps/details?id=com.abrosimov.mytalkingfloppa&hl=ru"
-                    target="_blank">
-                    <i class="bi bi-google-play"></i> Google Play
+            <div class="contact-links" aria-label="Contact links">
+                <a href="mailto:poulgray63@gmail.com" aria-label="Email">
+                    <svg aria-hidden="true" viewBox="0 0 24 24">
+                        <path d="M4 6h16v12H4z"></path>
+                        <path d="m4 7 8 6 8-6"></path>
+                    </svg>
+                    Email
                 </a>
-                <a class="store-btn" href="https://apps.apple.com/app/my-talking-floppa-virtual-pet/id6476065169"
-                    target="_blank">
-                    <i class="bi bi-apple"></i> App Store
+                <a href="https://t.me/Poulgray" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+                    <svg aria-hidden="true" viewBox="0 0 24 24">
+                        <path d="M21 4 3 11l7 2 2 7 3-5 5-11z"></path>
+                    </svg>
+                    Telegram
+                </a>
+                <a href="https://github.com/pou1gray" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <svg aria-hidden="true" viewBox="0 0 24 24">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.9a3.4 3.4 0 0 0-1-2.6c3.3-.4 6.8-1.6 6.8-7A5.4 5.4 0 0 0 20.3 4 5 5 0 0 0 20 1s-1.2-.4-4 1.5a13.4 13.4 0 0 0-7 0C6.2.6 5 1 5 1a5 5 0 0 0-.3 3A5.4 5.4 0 0 0 3.2 7.5c0 5.4 3.5 6.6 6.8 7a3.4 3.4 0 0 0-1 2.6V22">
+                        </path>
+                    </svg>
+                    GitHub
+                </a>
+                <a href="https://www.youtube.com/@Poulgray" target="_blank" rel="noopener noreferrer"
+                    aria-label="YouTube">
+                    <svg aria-hidden="true" viewBox="0 0 24 24">
+                        <path d="M22 8.5s-.2-1.7-.9-2.4c-.9-.9-1.8-.9-2.3-1C15.6 4.8 12 4.8 12 4.8s-3.6 0-6.8.3c-.5.1-1.5.1-2.3 1C2.2 6.8 2 8.5 2 8.5S1.8 10.5 1.8 12 2 15.5 2 15.5s.2 1.7.9 2.4c.9.9 2 .9 2.5 1 1.8.2 6.6.3 6.6.3s3.6 0 6.8-.3c.5-.1 1.5-.1 2.3-1 .7-.7.9-2.4.9-2.4s.2-2 .2-3.5-.2-3.5-.2-3.5z"></path>
+                        <path d="m10 9 5 3-5 3z"></path>
+                    </svg>
+                    YouTube
+                </a>
+                <a href="https://www.instagram.com/pou1gray/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Instagram">
+                    <svg aria-hidden="true" viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path d="M17.5 6.5h.01"></path>
+                    </svg>
+                    Instagram
                 </a>
             </div>
-        </div>
+        </section>
+    </main>
 
-        <!-- FOOTER -->
-        <footer class="text-center">
-            <p>© 2026 Vasily Abrosimov</p>
-        </footer>
+    <footer class="footer">
+        <p>© 2026 Vasily Abrosimov</p>
+    </footer>
 
-        <span style="display: none;">
-            fni5mxc7hfey78z4
-        </span>
-        <span style="display: none;">
-            gzp9jy4xn6iet6lp
-        </span>
+    <span hidden>fni5mxc7hfey78z4</span>
+    <span hidden>gzp9jy4xn6iet6lp</span>
 
-    </div>
+    <script>
+        const translations = {
+            en: {
+                pageTitle: "Vasily Abrosimov - Unity Developer, Indie Game Developer",
+                pageDescription: "Portfolio of Vasily Abrosimov, a Unity Developer with 3+ years of experience in personal and freelance projects. Creator of My Talking Floppa.",
+                navProjects: "Projects",
+                navContact: "Contact",
+                heroText: "I build games and interactive digital products with a focus on clean implementation, performance, and a polished feel.",
+                projectsButton: "Projects",
+                contactButton: "Contact",
+                projectsTitle: "Projects",
+                projectText: "A mobile virtual pet game.<br>I built every part of it myself, from 3D visuals and UI to programming, release, and support.",
+                contactLabel: "Contact",
+                contactText: "Need a game, prototype, or custom digital project built quickly and to a high standard?<br>I am open to freelance work and collaboration:"
+            },
+            ru: {
+                pageTitle: "Vasily Abrosimov - Unity Developer, инди-разработчик игр",
+                pageDescription: "Личный сайт Василия Абросимова, Unity Developer с опытом более 3 лет в личных и фриланс-проектах. Создатель My Talking Floppa.",
+                navProjects: "Проекты",
+                navContact: "Контакты",
+                heroText: "Создаю игры и интерактивные цифровые продукты с вниманием к качеству реализации, производительности и общему ощущению от продукта.",
+                projectsButton: "Проекты",
+                contactButton: "Связаться",
+                projectsTitle: "Проекты",
+                projectText: "Мобильная игра про уход за виртуальным питомцем.<br>Я полностью реализовал проект сам: от 3D-графики и интерфейса до программирования, релиза и поддержки.",
+                contactLabel: "Контакты",
+                contactText: "Нужна игра, прототип или цифровой проект, сделанный быстро и качественно?<br>Я открыт к фриланс-заказам и сотрудничеству:"
+            }
+        };
 
+        const metaDescription = document.querySelector('meta[name="description"]');
+        const languageButtons = document.querySelectorAll(".language-button");
+        const translatableElements = document.querySelectorAll("[data-i18n]");
+        const translatableHtmlElements = document.querySelectorAll("[data-i18n-html]");
+
+        function setLanguage(language) {
+            const dictionary = translations[language];
+
+            document.documentElement.lang = language;
+            document.title = dictionary.pageTitle;
+            metaDescription.setAttribute("content", dictionary.pageDescription);
+
+            translatableElements.forEach((element) => {
+                const key = element.getAttribute("data-i18n");
+                element.textContent = dictionary[key];
+            });
+
+            translatableHtmlElements.forEach((element) => {
+                const key = element.getAttribute("data-i18n-html");
+                element.innerHTML = dictionary[key];
+            });
+
+            languageButtons.forEach((button) => {
+                const isActive = button.dataset.lang === language;
+                button.classList.toggle("is-active", isActive);
+                button.setAttribute("aria-pressed", String(isActive));
+            });
+
+            localStorage.setItem("portfolio-language", language);
+        }
+
+        languageButtons.forEach((button) => {
+            button.addEventListener("click", () => setLanguage(button.dataset.lang));
+        });
+
+        const savedLanguage = localStorage.getItem("portfolio-language");
+        const browserLanguage = navigator.language && navigator.language.startsWith("ru") ? "ru" : "en";
+        setLanguage(savedLanguage || browserLanguage);
+    </script>
 </body>
 
 </html>
