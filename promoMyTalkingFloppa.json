@@ -84,6 +84,11 @@
             "code": "100DAYS",
             "coins": 5000,
             "experience": 1000
+        },
+        {
+            "code": "FLOPPACUBE",
+            "coins": 1499,
+            "experience": 399
         }
     ]
 }
