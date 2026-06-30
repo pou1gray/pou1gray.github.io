@@ -89,6 +89,11 @@
             "code": "FLOPPACUBE",
             "coins": 1499,
             "experience": 399
+        },
+        {
+            "code": "MTF2026SUMMER",
+            "coins": 3999,
+            "experience": 999
         }
     ]
 }
