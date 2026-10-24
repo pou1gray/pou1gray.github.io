@@ -94,6 +94,11 @@
             "code": "MTF2026SUMMER",
             "coins": 3999,
             "experience": 999
+        },
+        {
+            "code": "SHURIK2026",
+            "coins": 499,
+            "experience": 3
         }
     ]
 }
