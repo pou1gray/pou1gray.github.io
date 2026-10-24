@@ -98,7 +98,8 @@
         {
             "code": "SHURIK2026",
             "coins": 499,
-            "experience": 3
+            "crystals": 3,
+            "experience": 0
         }
     ]
 }
