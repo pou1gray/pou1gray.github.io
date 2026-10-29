@@ -389,6 +389,11 @@ h2 {
     stroke: none;
 }
 
+.contact-links svg.icon-fill {
+    fill: currentColor;
+    stroke: none;
+}
+
 .footer {
     padding: 28px 0 40px;
     color: var(--soft);
