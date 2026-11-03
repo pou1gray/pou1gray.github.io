@@ -7752,3 +7752,40 @@ yieldmo.com, 3377199372461613093, RESELLER
 yieldmo.com, 3746143199094055132, RESELLER
 yieldmo.com, 2719019867620450718, RESELLER
 zetaglobal.net, 546, RESELLER
+monetrix.ai, 10697, RESELLER
+adagio.io, 1439, RESELLER
+amxrtb.com, 105199725, RESELLER
+appnexus.com, 3364, RESELLER
+contextweb.com, 560382, RESELLER
+eskimi.com, 2020000014, RESELLER
+freewheel.tv, 536174-r-523319, RESELLER
+freewheel.tv, 536174-r-524565, RESELLER
+freewheel.tv, 799921, RESELLER
+google.com, pub-3677668629134422, RESELLER, f08c47fec0942fa0
+improvedigital.com, 1577, RESELLER
+indexexchange.com, 183756, RESELLER
+inmobi.com, a985e39014a94721a8e97c929d32ef9d, RESELLER, 83e75a7ae333ca9d
+insticator.com, 23674d5f-87ef-4a55-bc90-324263d3e005, RESELLER, b3511ffcafb23a32
+media.net, 8CU7949E6, RESELLER
+openx.com, 539154393, RESELLER
+pubmatic.com, 156307, RESELLER, 5d62403b186f2ace
+pubnative.net, 1007180, RESELLER, d641df8625486a7b
+redmob.io, 20261020000001, RESELLER
+rubiconproject.com, 16698, RESELLER, 0bfd66d529a55807
+seedtag.com, 69d68d4be8be020007d0b62c, RESELLER
+sharethrough.com, 3563, RESELLER, d53b998a7bd4ecd2
+sharethrough.com, RVhuFS44, RESELLER, d53b998a7bd4ecd2
+smaato.com, 1100047487, RESELLER, 07bcf65f187117b4
+smaato.com, 1100060615, RESELLER, 07bcf65f187117b4
+smartadserver.com, 3563, RESELLER
+sonobi.com, 9a1db44c9c, RESELLER, d1a215d9eb5aee9e
+ssp.cadent.com, 1643, RESELLER, 1e1d41537f7cad7f
+taboola.com, 2098925, DIRECT, c228e6794e811952
+taboola.com, 2098927, DIRECT, c228e6794e811952
+taboola.com, 2098925, RESELLER, c228e6794e811952
+taboola.com, 2098927, RESELLER, c228e6794e811952
+themediagrid.com, I2G5ZV, RESELLER, 35d5010d7789b49d
+triplelift.com, 14073, RESELLER, 6c33edb13117fd86
+vidazoo.com, 69c258b91fc35e6ff64e1b21, RESELLER, b6ada874b4d7d0b2
+video.unrulymedia.com, 1166984029, RESELLER
+yieldmo.com, 3357506016601120771, RESELLER
