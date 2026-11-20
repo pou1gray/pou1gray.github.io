@@ -106,6 +106,12 @@
             "coins": 499,
             "crystals": 3,
             "experience": 0
+        },
+        {
+            "code": "ELENAFLOPPA",
+            "coins": 2999,
+            "crystals": 5,
+            "experience": 2499
         }
     ]
 }
